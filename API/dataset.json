@@ -1,11 +1,14 @@
 [
   {
-    "task": "Write a Python function to extract the 'Region' from an AWS ARN (Amazon Resource Name) given as a string. For example, given the ARN 'arn:aws:ec2:us-east-1:123456789012:instance/i-12345678', the function should return 'us-east-1'."
+    "task": "Extract the bucket name from an AWS S3 URL using a regular expression.",
+    "solution criteria": "The regex should match the bucket name correctly, and it should be case-sensitive."
   },
   {
-    "task": "Create a JSON object representing an AWS IAM policy that grants access to list all S3 buckets."
+    "task": "Write a Python function to validate an AWS IAM policy document that checks if a policy has a version '2012-10-17'.",
+    "solution criteria": "The function should return True for valid policies and False for invalid policies."
   },
   {
-    "task": "Write a regular expression to match and extract the 'BucketName' from an AWS S3 URL, such as 'https://s3.amazonaws.com/my-bucket-name/path/to/object'. The regular expression should return 'my-bucket-name'."
+    "task": "Create a JSON object that represents an AWS SQS queue configuration, including the queue name, delay seconds, and message retention period.",
+    "solution criteria": "The JSON object should have the required keys (queue name, delay seconds, and message retention period) with valid values."
   }
 ]
